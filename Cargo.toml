@@ -1,0 +1,11 @@
+[package]
+name = "ecdh"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+secp256k1 = { version = "0.28", features = ["rand-std"] }
+hex = { version = "0.2", package = "hex-conservative"}
+bitcoin_hashes = "0.13"
